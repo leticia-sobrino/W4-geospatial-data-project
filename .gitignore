@@ -1,4 +1,7 @@
-.env/
+
 .ipynb_checpoints/
-.env/
+
 .env
+hola
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
