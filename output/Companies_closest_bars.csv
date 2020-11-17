@@ -1,0 +1,5 @@
+,Unnamed: 0,name,category_code,founded_year,total_money_raised,city,latitude,longitude,fill_0_employees,geometry,name,latitud,longitud
+0,0,Digital Assets Deployment,ecommerce,2006,0.0,Madrid,40.42046,-3.678121,10.0,POINT (-3.678121 40.42046),La Castela,40.42043470417075,-3.6765640741828016
+1,1,Daily Flat Rental,ecommerce,2008,0.0,Madrid,40.412323,-3.7032480000000003,2.0,POINT (-3.703248 40.412323),El Rincón del Cabo,40.411716,-3.7030745
+2,3,ticketea,ecommerce,2010,5.73,Madrid,40.445515500000006,-3.7061763999999995,0.0,POINT (-3.7061764 40.4455155),Suéltate el Pelo,40.444418245863936,-3.703119009838454
+3,4,BuyVIP,ecommerce,2006,20.0,Madrid,40.41674129999999,-3.7032498,0.0,POINT (-3.7032498 40.4167413),Yambala,40.41664556425945,-3.7070215912078375

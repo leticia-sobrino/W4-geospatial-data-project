@@ -1,0 +1,6 @@
+,name,category_code,founded_year,total_money_raised,city,latitude,longitude,fill_0_employees,geometry
+1,Seatwave,ecommerce,2006,53.0,London,51.500152,-0.126236,0.0,POINT (-0.126236 51.500152)
+2,ProcServe,ecommerce,2006,0.0,London,51.494067,-0.146665,55.0,POINT (-0.146665 51.494067)
+6,Shutl,ecommerce,2009,7.66,London,51.5196135,-0.1020265,10.0,POINT (-0.1020265 51.5196135)
+9,Autoquake,ecommerce,2005,39.9,London,51.543337,-0.172364,100.0,POINT (-0.172364 51.543337)
+10,Schway,ecommerce,2007,0.0,London,51.519816,-0.1361616,5.0,POINT (-0.1361616 51.519816)

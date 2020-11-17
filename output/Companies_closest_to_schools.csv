@@ -1,0 +1,5 @@
+,Unnamed: 0,name,category_code,founded_year,total_money_raised,city,latitude,longitude,fill_0_employees,geometry,name,latitud,longitud
+0,0,Digital Assets Deployment,ecommerce,2006,0.0,Madrid,40.42046,-3.678121,10.0,POINT (-3.678121 40.42046),Nuestra Señora De La Almudena,40.419158,-3.677935
+1,1,Daily Flat Rental,ecommerce,2008,0.0,Madrid,40.412323,-3.7032480000000003,2.0,POINT (-3.703248 40.412323),CEIP Isabel la Catolica,40.426336281392764,-3.6997512753593336
+2,3,ticketea,ecommerce,2010,5.73,Madrid,40.445515500000006,-3.7061763999999995,0.0,POINT (-3.7061764 40.4455155),Centro educativo Maria Inmaculada Fuencarral,40.4278666,-3.7034308
+3,4,BuyVIP,ecommerce,2006,20.0,Madrid,40.41674129999999,-3.7032498,0.0,POINT (-3.7032498 40.4167413),CEIP Isabel la Catolica,40.426336281392764,-3.6997512753593336

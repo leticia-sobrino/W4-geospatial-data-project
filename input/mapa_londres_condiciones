@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a74aa54f9be44b11b5bfc75ef45b985a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a74aa54f9be44b11b5bfc75ef45b985a" ></div>
+        
+</body>
+<script>    
+    
+            var map_a74aa54f9be44b11b5bfc75ef45b985a = L.map(
+                "map_a74aa54f9be44b11b5bfc75ef45b985a",
+                {
+                    center: [51.500152, -0.126236],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b32a45b914784b759f4b98a2e590032b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var marker_b05f32c04ee94556bb81b04449f85abe = L.marker(
+                [51.500152, -0.126236],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_fb36439091e14790a6cfc64df058f3bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building-o", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b05f32c04ee94556bb81b04449f85abe.setIcon(icon_fb36439091e14790a6cfc64df058f3bd);
+        
+    
+            marker_b05f32c04ee94556bb81b04449f85abe.bindTooltip(
+                `<div>
+                     Seatwave
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f795131a6ad041e08d65113dd7d29905 = L.marker(
+                [51.494067, -0.14666500000000002],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_468582d2b59c41d08f5c0f0648514384 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building-o", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f795131a6ad041e08d65113dd7d29905.setIcon(icon_468582d2b59c41d08f5c0f0648514384);
+        
+    
+            marker_f795131a6ad041e08d65113dd7d29905.bindTooltip(
+                `<div>
+                     ProcServe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc4b424788ac417fb27f77511c4e07c4 = L.marker(
+                [51.5196135, -0.1020265],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_9387a8add00a43ff95dca8bc93828f15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building-o", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fc4b424788ac417fb27f77511c4e07c4.setIcon(icon_9387a8add00a43ff95dca8bc93828f15);
+        
+    
+            marker_fc4b424788ac417fb27f77511c4e07c4.bindTooltip(
+                `<div>
+                     Shutl
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e55538ec85a940eb846e6bbbe2ac159b = L.marker(
+                [51.543337, -0.17236400000000002],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_f420fed99c3745faa59898766c1adefc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building-o", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e55538ec85a940eb846e6bbbe2ac159b.setIcon(icon_f420fed99c3745faa59898766c1adefc);
+        
+    
+            marker_e55538ec85a940eb846e6bbbe2ac159b.bindTooltip(
+                `<div>
+                     Autoquake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_946a708ea047439b92fb94c3f3cbd6e3 = L.marker(
+                [51.519816, -0.1361616],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_019cfbd1889d4253a7a5810fc5042779 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building-o", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_946a708ea047439b92fb94c3f3cbd6e3.setIcon(icon_019cfbd1889d4253a7a5810fc5042779);
+        
+    
+            marker_946a708ea047439b92fb94c3f3cbd6e3.bindTooltip(
+                `<div>
+                     Schway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73b07c2c27cd4190a36ffb4082d5a37c = L.marker(
+                [51.4995641497275, -0.12391947082597805],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_fe1df841b6164d7a901e166898a6de47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_73b07c2c27cd4190a36ffb4082d5a37c.setIcon(icon_fe1df841b6164d7a901e166898a6de47);
+        
+    
+            marker_73b07c2c27cd4190a36ffb4082d5a37c.bindTooltip(
+                `<div>
+                     Strangers' Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12ab0d1111314a4396235903d2d2f704 = L.marker(
+                [51.497384999999994, -0.145475],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_bd24b1cbc07742abb7bc32ef8c0ec36c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_12ab0d1111314a4396235903d2d2f704.setIcon(icon_bd24b1cbc07742abb7bc32ef8c0ec36c);
+        
+    
+            marker_12ab0d1111314a4396235903d2d2f704.bindTooltip(
+                `<div>
+                     The Goring Bar & Lounge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b5d18dd80b743e7940d8edb4d26d497 = L.marker(
+                [51.51890435770055, -0.10267230860740448],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_39a2a744d0ee4fff85f426063ad5fad3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0b5d18dd80b743e7940d8edb4d26d497.setIcon(icon_39a2a744d0ee4fff85f426063ad5fad3);
+        
+    
+            marker_0b5d18dd80b743e7940d8edb4d26d497.bindTooltip(
+                `<div>
+                     Oriole
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c88d644714f54875a0606363277b054e = L.marker(
+                [51.54650872874578, -0.19019958939499448],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_414d2452d04c4396a135f5fbdfe9252e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c88d644714f54875a0606363277b054e.setIcon(icon_414d2452d04c4396a135f5fbdfe9252e);
+        
+    
+            marker_c88d644714f54875a0606363277b054e.bindTooltip(
+                `<div>
+                     The Gallery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15da5dba8ca14903b605f90d513a8bd3 = L.marker(
+                [51.516488411871215, -0.13246184999197871],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_0be5050fb7d540f2b60d4f1f8974a75f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_15da5dba8ca14903b605f90d513a8bd3.setIcon(icon_0be5050fb7d540f2b60d4f1f8974a75f);
+        
+    
+            marker_15da5dba8ca14903b605f90d513a8bd3.bindTooltip(
+                `<div>
+                     Bradley's Spanish Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f64b324191345c0b63edd34b387e800 = L.marker(
+                [51.5014, -0.1163],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_512fc816eaa7486ba4a5c0f7caa4a01c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "briefcase", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5f64b324191345c0b63edd34b387e800.setIcon(icon_512fc816eaa7486ba4a5c0f7caa4a01c);
+        
+    
+            marker_5f64b324191345c0b63edd34b387e800.bindTooltip(
+                `<div>
+                     Park Plaza County Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61651101ed46496d9fd221ed49924fe8 = L.marker(
+                [51.49393, -0.14330199999999998],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_894ea32b5afa49e1a93cb8d0c080ca94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "briefcase", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_61651101ed46496d9fd221ed49924fe8.setIcon(icon_894ea32b5afa49e1a93cb8d0c080ca94);
+        
+    
+            marker_61651101ed46496d9fd221ed49924fe8.bindTooltip(
+                `<div>
+                     DoubleTree by Hilton London Victoria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_547392038fd448f6bde5a343b6f17b96 = L.marker(
+                [51.520666916416424, -0.10008185436024797],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_4e98210c3774434b9162525ffa7fea32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "briefcase", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_547392038fd448f6bde5a343b6f17b96.setIcon(icon_4e98210c3774434b9162525ffa7fea32);
+        
+    
+            marker_547392038fd448f6bde5a343b6f17b96.bindTooltip(
+                `<div>
+                     Malmaison
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7120d1c8cd2473a8037ff78cf837b52 = L.marker(
+                [51.525860547398565, -0.13390660285949707],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_634a378d98b94b2db135a046eb13293e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "briefcase", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d7120d1c8cd2473a8037ff78cf837b52.setIcon(icon_634a378d98b94b2db135a046eb13293e);
+        
+    
+            marker_d7120d1c8cd2473a8037ff78cf837b52.bindTooltip(
+                `<div>
+                     Wellcome Collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebffcc01a95c48b3bc7ec96487c0ec2d = L.marker(
+                [51.525860547398565, -0.13390660285949707],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_3a5255c105884e4b9f701e4ccb230c3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "briefcase", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ebffcc01a95c48b3bc7ec96487c0ec2d.setIcon(icon_3a5255c105884e4b9f701e4ccb230c3d);
+        
+    
+            marker_ebffcc01a95c48b3bc7ec96487c0ec2d.bindTooltip(
+                `<div>
+                     Wellcome Collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c350c340e56d4848b9a23ea700d13a45 = L.marker(
+                [51.49520185114362, -0.11744362651537182],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_8c94b15fbc964e368dc149dcd1615719 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c350c340e56d4848b9a23ea700d13a45.setIcon(icon_8c94b15fbc964e368dc149dcd1615719);
+        
+    
+            marker_c350c340e56d4848b9a23ea700d13a45.bindTooltip(
+                `<div>
+                     Fairley House School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9f6a71617f64e0c97bdbc1e2766d973 = L.marker(
+                [51.495949320128325, -0.14656845093993434],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_21cb31d686ea451cb808577d8589942a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d9f6a71617f64e0c97bdbc1e2766d973.setIcon(icon_21cb31d686ea451cb808577d8589942a);
+        
+    
+            marker_d9f6a71617f64e0c97bdbc1e2766d973.bindTooltip(
+                `<div>
+                     St Peter's Eaton Square CE Primary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d03e55066414ceba1f369061fab8fb1 = L.marker(
+                [51.52827110410086, -0.12432303816246235],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_f60a5cc1794e4ecfbc888f63fb6e5964 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9d03e55066414ceba1f369061fab8fb1.setIcon(icon_f60a5cc1794e4ecfbc888f63fb6e5964);
+        
+    
+            marker_9d03e55066414ceba1f369061fab8fb1.bindTooltip(
+                `<div>
+                     Argyle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c89c3ee574a142aa899909545db4192d = L.marker(
+                [51.5534832614875, -0.16799551556489073],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_2171b45d9a0a405398347df8bcc6cf54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c89c3ee574a142aa899909545db4192d.setIcon(icon_2171b45d9a0a405398347df8bcc6cf54);
+        
+    
+            marker_c89c3ee574a142aa899909545db4192d.bindTooltip(
+                `<div>
+                     Hampstead Hill School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d813c29e374c4b2db7186c19e6735508 = L.marker(
+                [51.52827110410086, -0.12432303816246235],
+                {}
+            ).addTo(map_a74aa54f9be44b11b5bfc75ef45b985a);
+        
+    
+            var icon_e93d5147d1444dbda078759c0f99614f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d813c29e374c4b2db7186c19e6735508.setIcon(icon_e93d5147d1444dbda078759c0f99614f);
+        
+    
+            marker_d813c29e374c4b2db7186c19e6735508.bindTooltip(
+                `<div>
+                     Argyle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b887adb645b438f85cbaac7e3f278ae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9b887adb645b438f85cbaac7e3f278ae" ></div>
+        
+</body>
+<script>    
+    
+            var map_9b887adb645b438f85cbaac7e3f278ae = L.map(
+                "map_9b887adb645b438f85cbaac7e3f278ae",
+                {
+                    center: [40.42955, -3.6793],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8cc84c50dca64c9f86079b381f206a7c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var marker_641ce1d2b7bb4a9983b45d254c916210 = L.marker(
+                [40.42046, -3.678121],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_146a6752c8684356933836e83b89a65c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building-o", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_641ce1d2b7bb4a9983b45d254c916210.setIcon(icon_146a6752c8684356933836e83b89a65c);
+        
+    
+            marker_641ce1d2b7bb4a9983b45d254c916210.bindTooltip(
+                `<div>
+                     Digital Assets Deployment
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18b4cec0330e4bd48e9e7a3d4a584dc6 = L.marker(
+                [40.412323, -3.7032480000000003],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_4e249c5194e448b1862e21f0ff094cb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building-o", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_18b4cec0330e4bd48e9e7a3d4a584dc6.setIcon(icon_4e249c5194e448b1862e21f0ff094cb3);
+        
+    
+            marker_18b4cec0330e4bd48e9e7a3d4a584dc6.bindTooltip(
+                `<div>
+                     Daily Flat Rental
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e26416832c94d10be37a288fd2b307b = L.marker(
+                [40.445515500000006, -3.7061763999999995],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_33710f8241d14ac887b2c184d0850beb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building-o", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4e26416832c94d10be37a288fd2b307b.setIcon(icon_33710f8241d14ac887b2c184d0850beb);
+        
+    
+            marker_4e26416832c94d10be37a288fd2b307b.bindTooltip(
+                `<div>
+                     ticketea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1581b43a8e114ea3868b1ebfd410665d = L.marker(
+                [40.41674129999999, -3.7032498],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_749b69a9d3b44f67965e572595379782 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building-o", "iconColor": "black", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1581b43a8e114ea3868b1ebfd410665d.setIcon(icon_749b69a9d3b44f67965e572595379782);
+        
+    
+            marker_1581b43a8e114ea3868b1ebfd410665d.bindTooltip(
+                `<div>
+                     BuyVIP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c3fa918c493480c83884fc44cb88e4b = L.marker(
+                [40.42043470417075, -3.6765640741828016],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_16f810e6a474402f8d7ba2a4a09b85c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2c3fa918c493480c83884fc44cb88e4b.setIcon(icon_16f810e6a474402f8d7ba2a4a09b85c9);
+        
+    
+            marker_2c3fa918c493480c83884fc44cb88e4b.bindTooltip(
+                `<div>
+                     La Castela
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d59c023598c43dba98a18d5c4657c13 = L.marker(
+                [40.416553147731534, -3.7038028241659045],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_24ce30151f6f4dbdaf3807c8c5d7dd5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5d59c023598c43dba98a18d5c4657c13.setIcon(icon_24ce30151f6f4dbdaf3807c8c5d7dd5c);
+        
+    
+            marker_5d59c023598c43dba98a18d5c4657c13.bindTooltip(
+                `<div>
+                     Madrid cerrajeros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbcfb5c86734421b89a846d2c10f0613 = L.marker(
+                [40.44678376501633, -3.7038034200668335],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_44ba8c87b0074d94b4c201c2185bc2d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bbcfb5c86734421b89a846d2c10f0613.setIcon(icon_44ba8c87b0074d94b4c201c2185bc2d2);
+        
+    
+            marker_bbcfb5c86734421b89a846d2c10f0613.bindTooltip(
+                `<div>
+                     REEDIFIC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8f35284045444438fa65de7400bb737 = L.marker(
+                [40.416553147731534, -3.7038028241659045],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_71316cb58ec94f01bd07ba696df818e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b8f35284045444438fa65de7400bb737.setIcon(icon_71316cb58ec94f01bd07ba696df818e2);
+        
+    
+            marker_b8f35284045444438fa65de7400bb737.bindTooltip(
+                `<div>
+                     Madrid cerrajeros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5081c22207e04b049d3a440a1ca8e73b = L.marker(
+                [40.436095, -3.691326],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_0050d34e1efa45d0adcacf45a4a6b538 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "briefcase", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5081c22207e04b049d3a440a1ca8e73b.setIcon(icon_0050d34e1efa45d0adcacf45a4a6b538);
+        
+    
+            marker_5081c22207e04b049d3a440a1ca8e73b.bindTooltip(
+                `<div>
+                     Elzalburu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0391eea38e514bfda46ac8dc70277048 = L.marker(
+                [40.41163272485411, -3.7079809606075287],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_76e92fbcece04afe87585b4af61a7973 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "briefcase", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0391eea38e514bfda46ac8dc70277048.setIcon(icon_76e92fbcece04afe87585b4af61a7973);
+        
+    
+            marker_0391eea38e514bfda46ac8dc70277048.bindTooltip(
+                `<div>
+                     hokena rung
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cc45b5fb2184a2da289fe2da535e769 = L.marker(
+                [40.453629550094746, -3.7041038274765015],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_db5b5824b1894fc5a4be97a7e4922534 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "briefcase", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3cc45b5fb2184a2da289fe2da535e769.setIcon(icon_db5b5824b1894fc5a4be97a7e4922534);
+        
+    
+            marker_3cc45b5fb2184a2da289fe2da535e769.bindTooltip(
+                `<div>
+                     Espacio Efímeral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d420a05373c4518b28568f4fa1ad312 = L.marker(
+                [40.41163272485411, -3.7079809606075287],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_3268f428e018452194c826553adeadfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "briefcase", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3d420a05373c4518b28568f4fa1ad312.setIcon(icon_3268f428e018452194c826553adeadfd);
+        
+    
+            marker_3d420a05373c4518b28568f4fa1ad312.bindTooltip(
+                `<div>
+                     hokena rung
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5532d7e373904d889d34b3dff7b98be6 = L.marker(
+                [40.419158, -3.6779349999999997],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_278421e8d53e4e7789bb3f3c3900a776 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5532d7e373904d889d34b3dff7b98be6.setIcon(icon_278421e8d53e4e7789bb3f3c3900a776);
+        
+    
+            marker_5532d7e373904d889d34b3dff7b98be6.bindTooltip(
+                `<div>
+                     Nuestra Señora De La Almudena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b463af6951694bf68bacbd030296f7c6 = L.marker(
+                [40.42633628139277, -3.6997512753593336],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_23039dfe0ed54ac3abdf2a0b44acc1cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b463af6951694bf68bacbd030296f7c6.setIcon(icon_23039dfe0ed54ac3abdf2a0b44acc1cf);
+        
+    
+            marker_b463af6951694bf68bacbd030296f7c6.bindTooltip(
+                `<div>
+                     CEIP Isabel la Catolica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e62cf6e06f5e4a15b67e9cacf579f97f = L.marker(
+                [40.4278666, -3.7034307999999996],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_65a850c6b3f946d8861fefc68c4f7aa2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e62cf6e06f5e4a15b67e9cacf579f97f.setIcon(icon_65a850c6b3f946d8861fefc68c4f7aa2);
+        
+    
+            marker_e62cf6e06f5e4a15b67e9cacf579f97f.bindTooltip(
+                `<div>
+                     Centro educativo Maria Inmaculada Fuencarral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f581d6c42804a559ae19dd531d39896 = L.marker(
+                [40.42633628139277, -3.6997512753593336],
+                {}
+            ).addTo(map_9b887adb645b438f85cbaac7e3f278ae);
+        
+    
+            var icon_1dd8d04212dd4dd4b5f94e51efde5a9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-graduation-cap", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5f581d6c42804a559ae19dd531d39896.setIcon(icon_1dd8d04212dd4dd4b5f94e51efde5a9e);
+        
+    
+            marker_5f581d6c42804a559ae19dd531d39896.bindTooltip(
+                `<div>
+                     CEIP Isabel la Catolica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
