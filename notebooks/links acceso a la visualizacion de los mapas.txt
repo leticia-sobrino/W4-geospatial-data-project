@@ -1,0 +1,8 @@
+
+Mapas Notebook Madrid vs. London : https://nbviewer.jupyter.org/github/leticia-sobrino/W4-geospatial-data-project/blob/main/notebooks/Madrid%20vs%20London.ipynb
+
+
+Mapas Notebook Conclusiones Madrid : https://nbviewer.jupyter.org/github/leticia-sobrino/W4-geospatial-data-project/blob/main/notebooks/CONCLUSIONES%20MADRID.ipynb
+
+
+Mapas Notebook Conclusiones Londres: https://nbviewer.jupyter.org/github/leticia-sobrino/W4-geospatial-data-project/blob/main/notebooks/CONCLUSIONES%20LONDRES.ipynb
